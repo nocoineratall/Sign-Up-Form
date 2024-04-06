@@ -1,0 +1,36 @@
+body {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-image {
+  flex: 1;
+  background-image: url(./background.JPG);
+  background-size: cover;
+  background-position: 90%;
+}
+
+.container-logo {
+  position: relative;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 1vw;
+  background-color: rgba(46, 56, 71, 0.1);
+}
+
+/* .container-logo img {
+  display: inline-block;
+} */
+
+.container-logo h1 {
+  text-align: center;
+}
+
+.container-form {
+  flex: 2;
+  background-color: rgba (182, 190, 203, 1);
+}
