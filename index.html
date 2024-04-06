@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-image">
+      <div class="container-logo">
+        <img src="./volcano.svg.svg" />
+        <h1>NocoinerWorldTravels</h1>
+      </div>
+    </div>
+    <div class="container-form">
+      <div class="form-header">
+        <p>Tired of watching the walls? Discover the wilderness</p>
+        <p>Wrap up your stuff and start the journey!</p>
+      </div>
+      <div class="form">
+        <p>Your mum would be proud.</p>
+        <form action="" method="post">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="userfirstname" required />
+
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="userlastname" required />
+
+          <label for="user-email">Email</label>
+          <input type="email" id="user-email" name="useremail" required />
+
+          <label for="user-phone">Phone Number</label>
+          <input type="tel" id="user-phone" name="userephone" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="userpassword" required />
+
+          <label for="password">Confirm Password</label>
+          <input type="password" id="password" name="userpassword" required />
+        </form>
+      </div>
+
+      <div class="submit">
+        <button type="submit">Create Account</button>
+        <p>Already signed-up? <a>Log in</a></p>
+      </div>
+    </div>
+  </body>
+</html>
