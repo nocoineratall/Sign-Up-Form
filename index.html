@@ -73,7 +73,7 @@
           </div>
 
           <div class="form-password">
-            <div class="password1 container">
+            <div class="password container">
               <label for="password">Password</label>
               <input
                 type="password"
@@ -83,8 +83,9 @@
                 maxlength="20"
                 required
               />
+              <p class="pwd-check-message"></p>
             </div>
-            <div class="password2 container">
+            <div class="password container">
               <label for="password">Confirm Password</label>
               <input
                 type="password"
@@ -101,7 +102,7 @@
       </div>
 
       <div class="submit">
-        <button type="submit" form="myform" class="submit-btn">
+        <button type="submit" form="myform" class="submit-btn" disabled>
           Create Account
         </button>
         <p>Already signed-up? <a href="">Log in</a></p>
