@@ -97,14 +97,6 @@ form .container {
   flex-direction: column;
 }
 
-input:invalid {
-  border: 1px solid red;
-}
-
-input:valid {
-  border: 1px solid rgb(47, 212, 116);
-}
-
 input:focus {
   box-shadow: 0px 3px 10px -5px rgb(70, 70, 180);
 }
@@ -127,6 +119,7 @@ input:focus {
   border: 2px solid rgba(46, 56, 71, 1);
   font-size: 1.1rem;
   letter-spacing: 1px;
+  font-family: inherit;
 }
 
 .submit button:hover {
