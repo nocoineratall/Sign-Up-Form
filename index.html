@@ -15,41 +15,93 @@
   <body>
     <div class="container-image">
       <div class="container-logo">
-        <img src="./volcano.svg.svg" />
-        <h1>NocoinerWorldTravels</h1>
+        <img src="./img/volcano.svg" />
+        <h1>Nocoiner Travels</h1>
       </div>
     </div>
     <div class="container-form">
       <div class="form-header">
-        <p>Tired of watching the walls? Discover the wilderness</p>
-        <p>Wrap up your stuff and start the journey!</p>
+        <p>
+          <em>
+            "Why do you go away? So that you can come back. So that you can see
+            the place you came from with new eyes and extra colors. And the
+            people there see you differently, too. Coming back to where you
+            started is not the same as never leaving.”</em
+          >
+        </p>
+        <p>– TERRY PRATCHETT</p>
       </div>
       <div class="form">
-        <p>Your mum would be proud.</p>
-        <form action="" method="post">
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" name="userfirstname" required />
+        <p>Adventure awaits, don't be late.</p>
+        <form action="" method="post" id="myform">
+          <div class="form-name">
+            <div class="firstname container">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="userfirstname"
+                minlength="2"
+                maxlength="20"
+                required
+              />
+            </div>
 
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" name="userlastname" required />
+            <div class="lastname container">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="userlastname"
+                minlength="2"
+                maxlength="20"
+                required
+              />
+            </div>
+          </div>
 
-          <label for="user-email">Email</label>
-          <input type="email" id="user-email" name="useremail" required />
+          <div class="form-contact">
+            <div class="email container">
+              <label for="user-email">Email</label>
+              <input type="email" id="user-email" name="useremail" />
+            </div>
+            <div class="phone container">
+              <label for="user-phone">Phone Number</label>
+              <input type="tel" id="user-phone" name="userephone" required />
+            </div>
+          </div>
 
-          <label for="user-phone">Phone Number</label>
-          <input type="tel" id="user-phone" name="userephone" required />
-
-          <label for="password">Password</label>
-          <input type="password" id="password" name="userpassword" required />
-
-          <label for="password">Confirm Password</label>
-          <input type="password" id="password" name="userpassword" required />
+          <div class="form-password">
+            <div class="password1 container">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="userpassword"
+                minlength="8"
+                maxlength="20"
+                required
+              />
+            </div>
+            <div class="password2 container">
+              <label for="password">Confirm Password</label>
+              <input
+                type="password"
+                id="password"
+                name="userpassword"
+                minlength="8"
+                maxlength="20"
+                required
+              />
+            </div>
+          </div>
         </form>
+        <p class="fields-note"><b>Note:</b> All fields are required</p>
       </div>
 
       <div class="submit">
-        <button type="submit">Create Account</button>
-        <p>Already signed-up? <a>Log in</a></p>
+        <button type="submit" form="myform">Create Account</button>
+        <p>Already signed-up? <a href="">Log in</a></p>
       </div>
     </div>
   </body>
