@@ -120,11 +120,6 @@ input:focus {
   flex: 1;
 }
 
-.submit:disabled {
-  background-color: grey;
-  color: lightgrey;
-}
-
 .submit button {
   padding: 10px 60px;
   border-radius: 8px;
